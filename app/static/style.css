@@ -37,3 +37,7 @@ body{
 .title{
     font-weight: 700;
 }
+.left{
+    border-right:  1px solid gray;
+    padding-right: 30px;
+}
