@@ -41,3 +41,13 @@ body{
     border-right:  1px solid gray;
     padding-right: 30px;
 }
+.description_title{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+.description_title > h5{
+    font-weight: bold;
+}
+.right{
+    padding-left: 30px;
+}
