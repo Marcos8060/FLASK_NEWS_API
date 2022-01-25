@@ -5,7 +5,12 @@ from .request import getNews
 
 @app.route('/')
 def home_page():
-    top_headlines = getNews('everything')
+    everything = getNews('everything')
     title = 'Welcome to Marcos News Channel'
-    return render_template('index.html', title=title, headlines= top_headlines)
+    return render_template('index.html', title=title, headlines= everything)
+
+@app.route('/headlines')
+def headlines_page():
+    headlines = getNews('top-headlines')
+    return render_template('headlines.html', headlines= headlines)
     
