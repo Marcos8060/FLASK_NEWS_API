@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+   <h1>Welcome to the best News Agency in the Country</h1>
+{% for headline in headlines %}
+   <div class="container">
+       <div class="news">
+           <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
+           <div class="details">
+             <p>{{ headline.title }}</p>
+             <h5>{{ headline.author }}</h5>
+           </div>
+       </div>
+   </div>
+{% endfor %}
+
+{% endblock %}
