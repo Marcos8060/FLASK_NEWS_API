@@ -7,15 +7,18 @@
    <div class="container">
        <div class="row item">
            <div class="col-md-7 left">
-             <h1 class="title">{{ headline.title }}</h1>
+             <h1 class="title mb-4">{{ headline.title }}</h1>
              <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
-             <p>{{ headline.author }}</p>
            </div>
            <div class="col-md-5 right">
                <div class="description_title">
                    <h5>Description</h5>
                </div>
                <p>{{ headline.description }}</p>
+               <div class="description_footer">
+                   <p>Author: <strong>{{ headline.author }}</strong></p>
+                   <p>Publish date: {{ headline.publishedAt }}</p>
+               </div>
            </div>
        </div>
    </div>
