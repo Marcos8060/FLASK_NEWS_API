@@ -29,3 +29,11 @@ body{
 .navbar-nav > li > a:hover{
     color: black;
 }
+
+/* news item */
+.item{
+    margin-top: 10vh;
+}
+.title{
+    font-weight: 700;
+}
