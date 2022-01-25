@@ -5,8 +5,12 @@
    <h1>Welcome to the best News Agency in the Country</h1>
 {% for headline in headlines %}
    <div class="container">
+       <div class="row">
+           <div class="col-md-7">
+             <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
+           </div>
+       </div>
        <div class="news">
-           <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
            <div class="details">
              <p>{{ headline.title }}</p>
              <h5>{{ headline.author }}</h5>
