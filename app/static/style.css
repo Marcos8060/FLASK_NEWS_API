@@ -19,3 +19,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.header > div > h1{
+    font-weight: 700;
+}
