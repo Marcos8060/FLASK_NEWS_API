@@ -31,6 +31,13 @@ body{
 .navbar-nav > li > a:hover{
     color: black;
 }
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: 0;
+    margin-left: 8px;
+}
 
 /* news item */
 .item{
