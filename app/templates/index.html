@@ -4,16 +4,15 @@
 {% block content %}
    <div class="container">
        <div class="row articles">
-    {% for headline in headlines %}
+    {% for news in everything %}
           <div class="col-md-4">
-              <p>{{ headline.url }}</p>
-              <h4 class="title mb-4 mt-5">{{ headline.title }}</h4>
-              <small>Publish date: {{ headline.publishedAt }}</small>
-              <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
-              <p class="mt-3">{{ headline.description }}</p>
+              <h4 class="title mb-4 mt-5">{{ news.title }}</h4>
+              <small>Publish date: {{ news.publishedAt }}</small>
+              <img src="{{ news.urlToImage }}" alt="" class="img-fluid">
+              <p class="mt-3">{{ news.description }}</p>
               <div class="article_footer">
-                <h6>Author: <strong>{{ headline.author }}</strong></h6>
-                <small>Reade article</small><a href="{{ headline.url }}"><img class="article_arrow" src="https://img.icons8.com/ios/30/000000/right--v1.png"/></a>
+                <h6>Author: <strong>{{ news.author }}</strong></h6>
+                <small>Reade article</small><a href="{{ news.url }}"><img class="article_arrow" src="https://img.icons8.com/ios/30/000000/right--v1.png"/></a>
               </div>
           </div>
     {% endfor %}
