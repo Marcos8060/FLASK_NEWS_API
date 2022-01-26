@@ -47,11 +47,25 @@ body{
 /* hero section */
 .hero_section{
     background: #161819;
+    height: 90vh;
 }
-.hero_section > img{
-    height: 100vh;
+.hero_section > div >  div > h1{
+    color: #EEEEEE;
+    font-weight: 800;
 }
-
+.hero_section > div > div > p{
+    color: #EEEEEE;
+}
+.btn{
+    background: #7AA42E;
+    outline: 0;
+    color: #EEEEEE;
+    height: 50px;
+    border-radius: 30px;
+}
+.btn:hover{
+    color: #EEEEEE;
+}
 /* news item */
 .links{
     margin-top: 5vh;
@@ -72,4 +86,10 @@ body{
 }
 .article_arrow{
     cursor: pointer;
+}
+/* footer */
+footer{
+    background: #161819;
+    height: 100px;
+    color: #EEEEEE;
 }
