@@ -29,13 +29,13 @@ body{
     font-size: 25px;
 }
 .navbar-brand:hover{
-    color: black;
+    color: #EEEEEE;
 }
 .navbar-nav > li > a{
     color: white;
 }
 .navbar-nav > li > a:hover{
-    color: black;
+    color: #EEEEEE;
 }
 .input{
     border-top: none;
@@ -67,15 +67,6 @@ body{
     color: #EEEEEE;
 }
 /* news item */
-.links{
-    margin-top: 5vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.links > li{
-    list-style-type: none;
-}
 .title{
     font-weight: bold;
 }
@@ -90,6 +81,5 @@ body{
 /* footer */
 footer{
     background: #161819;
-    height: 100px;
     color: #EEEEEE;
 }
