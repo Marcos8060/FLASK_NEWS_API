@@ -8,12 +8,13 @@
         <li><span class="badge bg-info">Share</span></li>
          <li><span class="badge bg-secondary">Connect</span></li>
     </ul>
-       <div class="row">
+       <div class="row articles">
     {% for headline in headlines %}
           <div class="col-md-4">
-              <h3 class="title mb-4 mt-5">{{ headline.title }}</h3>
+              <h4 class="title mb-4 mt-5">{{ headline.title }}</h4>
               <small>Publish date: {{ headline.publishedAt }}</small>
               <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
+              <p>{{ headline.description }}</p>
           </div>
     {% endfor %}
        </div>

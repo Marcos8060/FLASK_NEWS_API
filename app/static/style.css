@@ -4,6 +4,11 @@ body{
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Poppins', sans-serif;
 }
+.articles{
+    background: #EFF3F4;
+    padding: 20px;
+    border-radius: 10px;
+}
 .news > img{
     width: 400px;
     margin: 10px;
