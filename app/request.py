@@ -8,6 +8,8 @@ News = news.News
 api_key = app.config['API_KEY']
 # base url
 base_url = app.config['BASE_URL']
+# sources url
+source_url = app.config['SOURCES_URL']
 
 def getNews(category):
 
