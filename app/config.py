@@ -5,6 +5,7 @@ class Config:
      
      BASE_URL = 'https://newsapi.org/v2/{}?q=Apple&from=2022-01-25&sortBy=popularity&apiKey=d44a6ca7a2ff42faadd9361e56530005'
      API_KEY = 'd44a6ca7a2ff42faadd9361e56530005'
+     SOURCES_URL = 'https://newsapi.org/v2/top-headlines/sources?q=Apple&from=2022-01-25&sortBy=popularity&apiKey=d44a6ca7a2ff42faadd9361e56530005'
 
 class ProdConfig(Config):
 

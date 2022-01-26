@@ -13,4 +13,9 @@ def home_page():
 def headlines_page():
     headlines = getNews('top-headlines')
     return render_template('headlines.html', headlines= headlines)
+
+app.route('/sources')
+def sources_page():
+    sources = getNews('top-headlines,sources')
+    return render_template('sources.html',sources=sources)
     
