@@ -19,7 +19,7 @@ body{
 /* navbar section */
 .navbar{
     height: 80px;
-    /* background: white; */
+    background: white;
 }
 .active{
     font-weight: bold;
@@ -44,7 +44,6 @@ body{
     border-right: none;
     outline: 0;
     margin-left: 8px;
-    background: #EFF3F4;
 }
 
 /* news item */
