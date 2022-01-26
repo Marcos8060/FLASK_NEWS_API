@@ -93,7 +93,7 @@ def process_sources(source_list):
         country = source_item.get('country')
 
         if language == 'en':
-            source_object = Source(name,author,description,url,category,language,country)
+            source_object = Source(name,description,url,category,language,country)
             source_results.append(source_object)
 
     return source_results
