@@ -52,3 +52,10 @@ body{
 .title{
     font-weight: bold;
 }
+/* .description_title{
+    margin-top: 20vh;
+} */
+.parent{
+    display: flex;
+    align-items: center;
+}

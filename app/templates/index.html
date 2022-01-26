@@ -3,20 +3,19 @@
 
 {% block content %}
    <div class="container">
+    <ul class="links">
+        <li><span class="badge bg-primary">Top news</span></li>
+        <li><span class="badge bg-info">Share</span></li>
+         <li><span class="badge bg-secondary">Connect</span></li>
+    </ul>
        <div class="row">
+    {% for headline in headlines %}
           <div class="col-md-4">
-              <ul class="links">
-                  <li><span class="badge bg-primary">Top news</span></li>
-                  <li><span class="badge bg-info">Share</span></li>
-                   <li><span class="badge bg-secondary">Connect</span></li>
-              </ul>
-{% for headline in headlines %}
               <h3 class="title mb-4 mt-5">{{ headline.title }}</h3>
-              <small>Published: {{ headline.publishedAt }}</small>
+              <small>Publish date: {{ headline.publishedAt }}</small>
               <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
-
-{% endfor %}
           </div>
+    {% endfor %}
        </div>
    </div>
 
