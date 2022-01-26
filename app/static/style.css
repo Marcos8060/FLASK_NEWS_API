@@ -9,7 +9,6 @@ body{
 .articles{
     background: white;
     padding: 20px;
-    border-radius: 10px;
 }
 .news > img{
     width: 400px;
@@ -48,6 +47,9 @@ body{
 /* hero section */
 .hero_section{
     background: #161819;
+}
+.hero_section > img{
+    height: 100vh;
 }
 
 /* news item */
