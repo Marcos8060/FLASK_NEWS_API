@@ -14,7 +14,11 @@
               <h4 class="title mb-4 mt-5">{{ headline.title }}</h4>
               <small>Publish date: {{ headline.publishedAt }}</small>
               <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
-              <p>{{ headline.description }}</p>
+              <p class="mt-3">{{ headline.description }}</p>
+              <div class="article_footer">
+                <h6>Author: <strong>{{ headline.author }}</strong></h6>
+                <small>Reade article</small><img class="article_arrow" src="https://img.icons8.com/ios/30/000000/right--v1.png"/>
+              </div>
           </div>
     {% endfor %}
        </div>
