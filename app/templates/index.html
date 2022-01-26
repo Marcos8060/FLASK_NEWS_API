@@ -2,25 +2,22 @@
 
 
 {% block content %}
-{% for headline in headlines %}
    <div class="container">
-       <div class="row item">
-           <div class="col-md-7 left">
-             <h1 class="title mb-4">{{ headline.title }}</h1>
-             <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
-           </div>
-           <div class="col-md-5 right">
-               <div class="description_title">
-                   <h5>Description</h5>
-               </div>
-               <p>{{ headline.description }}</p>
-               <div class="description_footer">
-                   <p>Author: <strong>{{ headline.author }}</strong></p>
-                   <p>Publish date: {{ headline.publishedAt }}</p>
-               </div>
-           </div>
+       <div class="row">
+          <div class="col-md-4">
+              <ul class="links">
+                  <li><span class="badge bg-primary">Top news</span></li>
+                  <li><span class="badge bg-info">Share</span></li>
+                   <li><span class="badge bg-secondary">Connect</span></li>
+              </ul>
+{% for headline in headlines %}
+              <h3 class="title mb-4 mt-5">{{ headline.title }}</h3>
+              <small>{{ headline.publishedAt }}</small>
+              <img src="{{ headline.urlToImage }}" alt="" class="img-fluid">
+
+{% endfor %}
+          </div>
        </div>
    </div>
-{% endfor %}
 
 {% endblock %}

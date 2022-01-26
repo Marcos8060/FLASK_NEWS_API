@@ -40,26 +40,15 @@ body{
 }
 
 /* news item */
-.item{
-    margin-top: 10vh;
+.links{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links > li{
+    list-style-type: none;
 }
 .title{
-    font-weight: 700;
-}
-.left{
-    border-right:  1px solid #163A1D;
-    padding-right: 30px;
-}
-.description_title{
-    margin-top: 20vh;
-    margin-bottom: 10vh;
-}
-.description_title > h5{
     font-weight: bold;
 }
-.right{
-    padding-left: 30px;
-}
-/* .right > p{
-    color: gray;
-} */
