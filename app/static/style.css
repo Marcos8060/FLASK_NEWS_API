@@ -4,7 +4,6 @@ body{
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Poppins', sans-serif;
     /* background: #F398BD; */
-    background: #EFF3F4;
 }
 /* .articles{
     background: white;
@@ -103,6 +102,11 @@ body{
     font-weight: 700;
 }
 /* news item */
+/* .col-md-4{
+    height: 600px;
+    background: #EFF3F4;
+    margin: 5px;
+} */
 .title{
     font-weight: bold;
 }
