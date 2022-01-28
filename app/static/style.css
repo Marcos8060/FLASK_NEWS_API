@@ -114,15 +114,11 @@ body{
 .article_arrow{
     cursor: pointer;
 }
-.item{
+/* .item{
     height: 250px;
-}
+} */
 .col-md-6 > h6{
     font-weight: bold;
-}
-.img_item{
-    height: 200px;
-    width: 300px;
 }
 .more{
     text-decoration-color: black;
