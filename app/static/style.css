@@ -3,12 +3,8 @@
 body{
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Poppins', sans-serif;
-    /* background: #F398BD; */
 }
-/* .articles{
-    background: white;
-    padding: 20px;
-} */
+
 .news > img{
     width: 400px;
     margin: 10px;
@@ -17,8 +13,6 @@ body{
 /* navbar section */
 .navbar{
     height: 80px;
-    /* background: #262626; */
-    /* background: white; */
     background: #606162;
 }
 .active{
@@ -114,9 +108,10 @@ body{
 .article_arrow{
     cursor: pointer;
 }
-/* .item{
-    height: 250px;
-} */
+
+.item{
+    margin-bottom: 30px;
+}
 .col-md-6 > h6{
     font-weight: bold;
 }
