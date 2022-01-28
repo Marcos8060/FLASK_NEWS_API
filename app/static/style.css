@@ -101,12 +101,6 @@ body{
     font-size: 30px;
     font-weight: 700;
 }
-/* news item */
-/* .col-md-4{
-    height: 600px;
-    background: #EFF3F4;
-    margin: 5px;
-} */
 .title{
     font-weight: bold;
 }
@@ -117,6 +111,12 @@ body{
 }
 .article_arrow{
     cursor: pointer;
+}
+.item{
+    height: 250px;
+}
+.col-md-6 > h6{
+    font-weight: bold;
 }
 /* footer */
 footer{
