@@ -57,10 +57,10 @@
     <div class="col-md-6 item">
       <div class="row">
         <div class="col-md-6">
-          <img class="img-fluid" src="{{ news.urlToImage }}" alt="">
+          <img class="img-fluid img_item" src="{{ news.urlToImage }}" alt="">
         </div>
         <div class="col-md-6">
-          <h6>{{ news.title }}</h6>
+          <a href="{{ news.url }}" class="more" target="_blank" ><h6>{{ news.title }}</h6></a>
           <small>{{ news.description }}</small>
         </div>
       </div>
