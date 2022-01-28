@@ -53,18 +53,18 @@
   <div class="container-fluid">
     <div class="row articles">
       {% for headline in headlines %}
-      <div class="col-md-6 item">
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid img_item" src="{{ headline.urlToImage }}" alt="">
-          </div>
-          <div class="col-md-6">
-            <a href="{{ headline.url }}" class="more" target="_blank" ><h6>{{ headline.title }}</h6></a>
-            <small>{{ headline.description }}</small>
+        <div class="col-md-6 item">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="{{ headline.urlToImage }}" alt="">
+            </div>
+            <div class="col-md-6">
+              <a href="{{ headline.url }}" class="more"><h6>{{ headline.title }}</h6></a>
+              <small>{{ headline.content }}</small>
+            </div>
           </div>
         </div>
-      </div>
-      {% endfor %}
+    {% endfor %}
     </div>
   </div>
 {% endblock %}
