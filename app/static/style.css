@@ -19,7 +19,6 @@ body{
     font-weight: bold;
 }
 .navbar-brand{
-    color: #318d8c;
     font-weight: bold;
     font-size: 25px;
 }
@@ -107,6 +106,9 @@ body{
 }
 .article_arrow{
     cursor: pointer;
+}
+.articles{
+    margin-top: 5vh;
 }
 
 .item{
